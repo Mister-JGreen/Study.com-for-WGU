@@ -1,6 +1,5 @@
 /*
   Name: Public Library Database public_library
-  Creator: Jarrod Green
 */
 
 
