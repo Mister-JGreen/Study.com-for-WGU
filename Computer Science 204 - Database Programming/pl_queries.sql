@@ -53,7 +53,7 @@ INNER JOIN tblBorrower
 ON tblBook.BookID = tblBorrower.BookID
 WHERE YEAR(BorrowDate) BETWEEN 2015 AND 2017
 GROUP BY AuthorNationality
-ORDER BY COUNT(tblBorrower.BookID);
+ORDER BY COUNT(tblBorrower.BookID) LIMIT 5;
 
 /*  QUESTION 6  */
 # The formatting of this query was very similar to the previous 3 questions
